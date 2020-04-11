@@ -1,0 +1,34 @@
+body {
+    height: 100%; 
+    background-image: url(https://scx1.b-cdn.net/csz/news/800/2018/1-whytheweathe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.containerTwo {
+    background-color: gray;
+    margin-left: 20px;   
+    margin-right: 20px;
+    padding-bottom: 24px;
+}
+
+#sideBar { background-color: honeydew;
+    margin-left: 22px;
+    
+}
+
+#weatherBox {
+    background-color: lavender;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.col-sm {
+    background-color: lightyellow;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 50px;
+}
