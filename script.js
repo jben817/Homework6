@@ -22,7 +22,7 @@ $("#citySearch").on("click", function(event){
     $(".wind").text("Wind Speed: " + response.wind.speed);
         $(".humidity").text("Humidity: " + response.main.humidity);
         var convertedTemp = (response.main.temp - 273.15) * 1.80 + 32;
-        $(".convertedTemp").text("Temperature (F) " + convertedTemp.toFixed(2));
+        $(".convertedTemp").text("Temperature (F) " + convertedTemp.toFixed(1));
 
     // console.log(response);
     // console.log(response.main.humidity);
@@ -56,11 +56,11 @@ $("#citySearch").on("click", function(event){
      var dayFourHumidity = $("<p>").text("Humidity:" + response.list[3].main.humidity);
      var dayFiveHumidity = $("<p>").text("Humidity:" + response.list[4].main.humidity);
 
-     var dayOneWind = $("<p>").text("Wind" + response.list[0].wind.speed);
-     var dayTwoWind = $("<p>").text("Wind" + response.list[1].wind.speed);
-     var dayThreeWind = $("<p>").text("Wind" + response.list[2].wind.speed);
-     var dayFourWind = $("<p>").text("Wind" + response.list[3].wind.speed);
-     var dayFiveWind = $("<p>").text("Wind" + response.list[4].wind.speed);
+     var dayOneWind = $("<p>").text("Wind:" + response.list[0].wind.speed);
+     var dayTwoWind = $("<p>").text("Wind:" + response.list[1].wind.speed);
+     var dayThreeWind = $("<p>").text("Wind:" + response.list[2].wind.speed);
+     var dayFourWind = $("<p>").text("Wind:" + response.list[3].wind.speed);
+     var dayFiveWind = $("<p>").text("Wind:" + response.list[4].wind.speed);
 
 
      $("#dayOne").append(dayOneTemp, dayOneHumidity, dayOneWind);
