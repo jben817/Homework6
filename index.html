@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Weather App</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -23,7 +25,7 @@
       <div class="col">
         <h3>Search By City</h3>
         <div class="row">
-          <div id="sideBar" class="col-6 col-sm-4 ">
+          <div id="sideBar" class="col-4 col-sm-4 ">
             <div class="input-group mb-3">
               <input type="text" class="form-control" id="enterCity" placeholder="Enter City" aria-label="City Name"
                 aria-describedby="button-addon2">
@@ -33,18 +35,20 @@
               </div>
             </div>
           </div>
+
           <div id="weatherBox" class="col-8 col-sm-6 ">
             <div class="city"> city</div>
             <div class="wind">wind</div>
             <div class="humidity">humidity</div>
-            <div class="temp">temp</div>
-            <div class="convertedTemp">Temp in Farenheight</div>
+            <div class="convertedTemp">Temp (F)</div>
             <div class="row">
-              <div id = "dayOne" class="col-sm">1 of 4</div>
-              <div id = "dayTwo" class="col-sm">2 of 4</div>
-              <div id = "dayThree" class="col-sm">3 of 4</div>
-              <div id = "dayFour" class="col-sm">4 of 4</div>
-              <div id = "dayFive" class="col-sm">4 of 4</div>
+              <div id="fiveday">
+              </div>
+              <div id="dayOne" class="col-sm"> </div>
+              <div id="dayTwo" class="col-sm"></div>
+              <div id="dayThree" class="col-sm"></div>
+              <div id="dayFour" class="col-sm"></div>
+              <div id="dayFive" class="col-sm"></div>
 
             </div>
 

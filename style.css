@@ -6,29 +6,43 @@ body {
     background-size: cover;
 
 }
+.container {
+    font-family: 'Paytone One', sans-serif;
+
+}
 
 .containerTwo {
     background-color: gray;
     margin-left: 20px;   
     margin-right: 20px;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
+    font-family: 'ZCOOL XiaoWei', serif;
+
 }
 
 #sideBar { background-color: honeydew;
-    margin-left: 22px;
+    margin-left: 24px;
     
 }
 
 #weatherBox {
     background-color: lavender;
-    padding: 10px;
+    padding: 20px;
     margin-left: 50px;
+    border-right-width: 20px;
+    height: 400px;
+    
 }
 
 .col-sm {
-    background-color: lightyellow;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    height: 50px;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 150px;
+    text-align: left;
+    }
+
+h5 {
+    text-align: center;
+    color: darkorchid;
 }
